@@ -1,0 +1,23 @@
+{
+  "name": "chat-gploko-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests to be ran!\" && exit 0",
+    "dev": "tsx watch ./src/index.ts"
+  },
+  "author": "Otávio Luiz Tschá",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "chatgpt": "^5.0.10",
+    "discord.js": "12.5.3",
+    "dotenv": "^16.0.3",
+    "envalid": "^7.3.1",
+    "openai-token": "^1.0.0"
+  }
+}
